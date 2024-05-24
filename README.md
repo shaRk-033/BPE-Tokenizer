@@ -84,15 +84,6 @@ print("GPT Tokenizer Encoded:", gpt_encoded)
 print("GPT Tokenizer Decoded:", gpt_decoded)
 ```
 
-## Installation
-
-To install this module, clone the repository and run the following command:
-
-```sh
-git clone https://github.com/yourusername/tokenizer.git
-cd tokenizer
-```
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
