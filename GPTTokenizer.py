@@ -54,7 +54,7 @@ class GPTTokenizer():
         tokens = []
         for chunk in chunks:
             tks = list(chunk.encode('utf-8'))
-            tks = self.encode_chunk(tks)
+            tks = self._encode_chunk(tks)
             tokens.extend(tks)
             
         return tokens
