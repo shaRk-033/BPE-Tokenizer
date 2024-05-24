@@ -61,5 +61,5 @@ class GPTTokenizer():
     
     def decode(self, tokens):
         x = (b"".join(self.vocab[idx] for idx in tokens))
-        text = x.decode('utf-8')
+        text = x.decode('utf-8', errors="ignore")
         return text
