@@ -30,7 +30,7 @@ class GPTTokenizer():
         chunks = re.findall(self.GPT4_SPLIT_PATTERN, text)
         tokens = [list(chunk.encode('utf-8')) for chunk in chunks]
         
-        for i in range(100):
+        for i in range(self.voacb_size - 256):
             stats = {}
             for token in tokens:
                 self.freq(token, stats)
