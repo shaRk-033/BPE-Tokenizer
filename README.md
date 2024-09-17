@@ -1,5 +1,5 @@
 # Basic and GPT Tokenizer
-
+all thanks to karpathy
 This repository contains two classes, `BasicTokenizer` and `GPTTokenizer`, that implement basic tokenization techniques for text processing. These tokenizers can be used to encode and decode text based on a simple byte-pair encoding (BPE) algorithm. The `GPTTokenizer` class also includes a sophisticated text splitting method based on regular expressions, inspired by GPT-4's tokenization pattern.
 
 ## Table of Contents
